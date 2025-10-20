@@ -50,7 +50,7 @@ app.get('/', (req,res) => {
             </tbody>
         </table>
     `
-    res.send('<h1>Full Cycle Rocks!</h1><br>'+listaPessoasString)
+    res.send('<h1>Full Cycle Rocks!!</h1><br>'+listaPessoasString)
 })
 
 app.listen(port, ()=> {
